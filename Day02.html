@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Day 02</title>
+        <style>
+            marquee{
+                color: darkred;
+                font-size: 50px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-style: italic;
+            }
+            label{
+                color: blue;
+            }
+            img{
+                width: 400px;
+                margin: 30px;
+                border: black;
+                border-style: dotted;
+                border-width: 5px;
+            }
+            body{
+                background-image: linear-gradient(white,pink);
+            }
+            .gen{
+                color:rgb(224, 16, 1);
+            }
+            #pad{
+                width: 40%;
+                background-color:rgb(112, 74, 49);
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <marquee direction="right">Register Now!!!</marquee>
+        <form action="mailto: anika01032003@gmail.com" method="post">
+            Name:
+            <input type="text" name="Name" placeholder="Enter you name" required>
+            <br><br>
+            Gender:
+            <input type="radio" name="gender" value="Male" id="gender-m">
+            <label for="gender-m" class="gen">Male</label> 
+            <input type="radio" name="gender" value="Female" id="gender-f">
+            <label for="gender-f" class="gen">Female</label>
+            <br><br>
+            Skills:
+            <input type="checkbox" name="skills" id="skill1" value="HTML">
+            <label for="skill1" >HTML</label>
+            <input type="checkbox" name="skills" id="skill2" value="CSS">
+            <label for="gender-f">CSS</label>
+            <input type="checkbox" name="skills" id="skill3" value="Javascript">
+            <label for="skill3" >Javascript</label>
+            <br><br>
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <br>
+        Profession:
+        <select name="Profession" id="">
+            <option>--select--</option>
+            <option>School</option>
+            <option selected>College</option>
+            <option>Working</option>
+        </select>
+        <br><br>
+        <img src="https://t3.ftcdn.net/jpg/01/10/53/04/360_F_110530499_pjM3zKDTmbwdsUbduglVzAsl4HGVUzDA.jpg">
+        <div id="pad">
+            Application Form
+        </div>
+    </body>
+</html>
